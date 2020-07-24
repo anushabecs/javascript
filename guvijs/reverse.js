@@ -1,9 +1,10 @@
 function reverse(s)
 {
-let reversed="java script";
-for (var i=s.length-1;i>=0;i--)
+var srev='';
+for(var i=str.length-1;i>=0;i--)
 {
-reversed +=s[i];
+srev = srev +s.charAt(i)
 }
-return reversed;
+document.write(srev);
 }
+reverse(akshara);

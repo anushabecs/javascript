@@ -1,7 +1,16 @@
 function prime(n)
 {
-for(n=2;n<=100;n++)
+for(var i=1;i<=n;i++)
 {
-document.write(n);
+var c=0;
+for(var j=2;j<=i;j++)
+{
+if(( i % j) ==0)
+{
+c=0;
 }
 }
+document.write(j);
+}
+}
+prime(100);
