@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head></head>
+<body>
+<script>
+var promise = new Promise(function(resolve,reject){
+    const x="apple";
+    const y="apple"
+    if(x == y)
+    {
+        resolve();
+    }
+    else
+    {
+        reject();
+    }
+
+});
+promise.then(function()
+{
+    console.log('success');
+})
+promise.catch(function()
+{
+    console.log('error')
+})
+</script>
+</body>
+</html>
