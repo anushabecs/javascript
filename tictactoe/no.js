@@ -21,7 +21,9 @@ var b = document.getElementById("main").innerHTML = `<span id ="enter">player</s
                 b2.classList.add("win");
                 b3.classList.add("win");
                 enter.innerHTML = b1.innerHTML  +  "Won the match";
-
+                setTimeout(()=>{
+                  replay();
+               },1000);
                }
             
             function Win(){
