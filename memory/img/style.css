@@ -1,0 +1,27 @@
+
+.box-grid{
+    height: 25px;
+    background-color: #bbbbbb;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 36px;
+    margin: 0 10px;
+}
+
+
+.wait{
+    border: 3px dotted orange;
+    background-color: skyblue;
+}
+
+.correct{
+    background-color: green;
+}
+
+.existButWrong{
+    background-color: orange;
+}
+
+.Wrong{
+    background-color: red;
+}
